@@ -5,7 +5,7 @@ export default function Header(){
         <>
         <header>
             <h1>List</h1>
-            <h3>3 Tasks</h3>
+            <h3>6 Tasks</h3>
         </header>
         </>
     )

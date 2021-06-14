@@ -1,13 +1,24 @@
-.Body{
+.containerBody{
     position: relative;
     top: -5rem;
     height: 150px;
     width: 100%;
 
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
 
     background-color: var(--white);
     border-radius: 50px 50px 0px 0px;
+}
+.tasks{
+    padding-top: 0.8rem;
+}
+button{
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+
+    margin: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
 }

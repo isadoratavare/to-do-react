@@ -1,0 +1,28 @@
+.taskBody{
+    border-left: 5px solid var(--pink);
+    margin: 1rem 3.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+span{
+    margin-left: 1rem ;
+}
+.dayTask{
+    font-size: 0.8rem;
+}
+.contentTask{
+    font-size: 1.5rem;
+}
+input{
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: var(--green);
+}
+@media (max-width: 1080px){
+    .taskBody{
+        margin: 1rem 2rem;
+    }
+}
