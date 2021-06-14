@@ -1,0 +1,19 @@
+header{
+    background-color: var(--green);
+    padding: 2rem 4rem;
+    height: 18rem;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--gray-800)
+
+}
+h3{
+    color: var(--gray-500)
+}
+@media (max-width: 1080px){
+    header{
+        padding: 1rem 3rem;
+    }
+}
