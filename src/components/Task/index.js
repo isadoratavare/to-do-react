@@ -1,12 +1,12 @@
 import '../Task/main.css'
-export default function Task(){
+export default function Task(props){
     return(
         <div className="containerTask">
             <div className="taskBody">
                 <span>
-                    <p className="dayTask">Monday</p>
-                    <p className="contentTask">Limpar a casa</p>
-                    <p className="timeTask">16:00 - 19:00</p>
+                    <p className="dayTask">{props.day}</p>
+                    <p className="contentTask">{props.content}</p>
+                    <p className="timeTask">{props.time}</p>
                 </span>
                 <input type="checkbox"/>
             </div>
