@@ -8,8 +8,9 @@ export default function TaskProvider({ children }){
         content: 'Limpar',
         time:'16:00'
     }])
+    const [bodyTask,setbodyTask] = useState(false);
     return(
-        <TaskContext.Provider value={{tasks,setTasks}}>
+        <TaskContext.Provider value={{tasks,setTasks,bodyTask,setbodyTask}}>
             {children}
         </TaskContext.Provider>
     )
@@ -17,6 +18,6 @@ export default function TaskProvider({ children }){
 
 export function useTasks(){
     const context = useContext(TaskContext);
-    const { tasks,setTasks } = context;
-    return { tasks,setTasks }
+    const { tasks,setTasks,bodyTask,setbodyTask } = context;
+    return { tasks,setTasks,bodyTask,setbodyTask }
 }
