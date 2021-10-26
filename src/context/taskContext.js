@@ -7,10 +7,10 @@ export default function TaskProvider({ children }){
         day: 'Monday',
         content: 'Limpar',
         time:'16:00'
-    }])
-    const [bodyTask,setbodyTask] = useState(false);
+    }]);
+   
     return(
-        <TaskContext.Provider value={{tasks,setTasks,bodyTask,setbodyTask}}>
+        <TaskContext.Provider value={{tasks,setTasks}}>
             {children}
         </TaskContext.Provider>
     )
@@ -18,6 +18,6 @@ export default function TaskProvider({ children }){
 
 export function useTasks(){
     const context = useContext(TaskContext);
-    const { tasks,setTasks,bodyTask,setbodyTask } = context;
-    return { tasks,setTasks,bodyTask,setbodyTask }
+    const { tasks,setTasks} = context;
+    return [ tasks,setTasks ]
 }
