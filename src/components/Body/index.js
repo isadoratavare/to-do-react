@@ -25,7 +25,7 @@ export default function Body(){
                                 
                             />)}
                         </div>
-                    <button onClick={updateTask}>
+                    <button onClick={updateTask} className="button-add">
                         +
                     </button>
                 </>
