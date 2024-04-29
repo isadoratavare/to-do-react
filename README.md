@@ -63,6 +63,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+![Exemplo de GIF](https://drive.google.com/uc?id=SEU_ID_DO_ARQUIVO)
+
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `yarn build` fails to minify
